@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "keyboardoverlay",
+  "version": "${version}",
+  "name": "Keyboard Input Overlay",
+  "description": "A lightweight configurable keyboard input overlay for Minecraft 1.21.4.",
+  "authors": ["Kiuox"],
+  "license": "All Rights Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.kiuox.keyboardoverlay.KeyboardOverlayClient"
+    ],
+    "modmenu": [
+      "io.kiuox.keyboardoverlay.KeyboardOverlayModMenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": ">=13.0.0"
+  }
+}
