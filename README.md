@@ -1,47 +1,74 @@
 <div align="center">
 
-# ⌨️ Keyboard Input Overlay
+# Keyboard Input Overlay
 
-**See every key you press — live, right on your Minecraft screen.**
+<kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>
 
-
-
-![Fabric](https://img.shields.io/badge/Mod_Loader-Fabric-dbd0b4?style=for-the-badge)
+Your keystrokes, live on screen. A small client-side Fabric mod for Minecraft.
 
 
 
+![Minecraft](https://img.shields.io/badge/Minecraft-1.21.4-62b47a?style=flat-square)
 
-![Client](https://img.shields.io/badge/Side-Client-blue?style=for-the-badge)
 
 
+
+![Loader](https://img.shields.io/badge/Loader-Fabric-dbd0b4?style=flat-square)
+
+
+
+
+![Environment](https://img.shields.io/badge/Environment-Client-5b8def?style=flat-square)
+
+
+
+[Download](https://github.com/iKiuox/Keyboard-Input-Overlay-/releases) · [Report a bug](https://github.com/iKiuox/Keyboard-Input-Overlay-/issues)
 
 </div>
 
 ---
 
-## ✨ Features
+## About
 
-- ⌨️ Live on-screen keyboard input overlay
-- ⚙️ In-game config screen
-- 📍 Adjustable overlay position
-- 🧩 Mod Menu integration
-- 🪶 Tiny and client-side only — nothing to install on the server
+Keyboard Input Overlay draws the keys you are pressing as a HUD overlay while you play. It is client-side only, so there is nothing to install on the server.
 
-## 📦 Installation
+## Features
 
-1. Install **Fabric Loader** and **Fabric API** for your Minecraft version.
-2. Download the latest `.jar` from the [Releases](https://github.com/iKiuox/Keyboard-Input-Overlay-/releases) page.
-3. Drop it into your `.minecraft/mods` folder.
-4. Launch the game and enjoy!
+- Live display of pressed keys
+- In-game settings screen
+- Position editor to place the overlay anywhere on screen
+- [Mod Menu](https://modrinth.com/mod/modmenu) integration
 
-## 🎮 Usage
+## Requirements
 
-Open **Mod Menu**, select the mod, and hit the config button to tweak the overlay and move it wherever you like.
+- Minecraft **1.21.4**
+- [Fabric Loader](https://fabricmc.net/use/installer/) for 1.21.4
+- [Fabric API](https://modrinth.com/mod/fabric-api)
+- [Mod Menu](https://modrinth.com/mod/modmenu) (recommended, used to open the settings)
 
-## 🐛 Issues & Ideas
+## Installation
 
-Found a bug or have a suggestion? Open an [issue](https://github.com/iKiuox/Keyboard-Input-Overlay-/issues).
+1. Install Fabric Loader for Minecraft 1.21.4.
+2. Drop Fabric API into your `mods` folder.
+3. Download the latest `.jar` from [Releases](https://github.com/iKiuox/Keyboard-Input-Overlay-/releases) and drop it into `mods` as well.
+4. Start the game with the Fabric 1.21.4 profile.
+
+## Usage
+
+Open the mod's settings through Mod Menu to adjust the overlay and set its position.
+
+## Status
+
+Current version: **1.1.0**. This repository only contains the source for now; build files are not included yet.
+
+## Issues
+
+Found a bug or have an idea? [Open an issue](https://github.com/iKiuox/Keyboard-Input-Overlay-/issues) and include your Minecraft and Fabric versions.
 
 ---
 
-<div align="center">Made with ❤️ by <a href="https://github.com/iKiuox">iKiuox</a></div>
+<div align="center">
+
+by [iKiuox](https://github.com/iKiuox)
+
+</div>
